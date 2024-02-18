@@ -27,7 +27,7 @@ public class TicTacToeFrame extends JFrame
                 board[i][j] = " ";
                 JButton button = new JButton();
                 buttons[i][j] = button;
-                button.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 100));
+                button.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 50));
                 button.setActionCommand(i + "," + j);  // Set the button's action command to its row,col
                 button.addActionListener(buttonListener);
                 add(button);
